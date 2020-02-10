@@ -106,5 +106,6 @@ video {
     width: 25%;
     height: 25%;
     padding: 1em;
+    font-size: 1em;
   }
 }
