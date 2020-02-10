@@ -78,3 +78,25 @@ video {
 .sound-select button img {
   height: 100%;
 }
+@media (max-width: 1250px) {
+  .app {
+    flex-direction: column;
+  }
+  .time-select,
+  .sound-select,
+  .play-container {
+    flex-direction: row;
+    width: 100%;
+  }
+  video {
+    height: 100vh;
+  }
+  .time-select button,
+  .sound-select button {
+    color: black;
+    border-color: black;
+  }
+  .play-container svg {
+    height: 100%;
+  }
+}
