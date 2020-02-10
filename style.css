@@ -97,6 +97,13 @@ video {
     border-color: black;
   }
   .play-container svg {
-    height: 100%;
+    height: 80%;
+  }
+  .play-container img {
+    height: 30%;
+  }
+  .time-display {
+    font-size: 30px;
+    bottom: -5%;
   }
 }
