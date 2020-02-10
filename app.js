@@ -45,11 +45,11 @@ const app = () => {
     if (song.paused) {
       song.play();
       video.play();
-      play.src = "/meditation-app-master/svg/pause.svg";
+      play.src = "meditation-app-master/svg/pause.svg";
     } else {
       song.pause();
       video.pause();
-      play.src = "/meditation-app-master/svg/play.svg";
+      play.src = "meditation-app-master/svg/play.svg";
     }
   };
 
@@ -70,7 +70,7 @@ const app = () => {
       song.pause();
       video.pause();
       song.currentTime = 0;
-      play.src = "/meditation-app-master/svg/play.svg";
+      play.src = "meditation-app-master/svg/play.svg";
     }
   };
 };
