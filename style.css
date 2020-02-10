@@ -100,6 +100,11 @@ video {
   }
   .time-display {
     font-size: 30px;
-    bottom: -5%;
+    bottom: -10%;
+  }
+  .time-select button {
+    width: 25%;
+    height: 25%;
+    padding: 1em;
   }
 }
